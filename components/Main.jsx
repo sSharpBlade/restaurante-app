@@ -1,12 +1,14 @@
-import { Text, View } from "react-native";
-import React, { Component } from "react";
-import { Link } from "expo-router";
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
 
-export function Main() {
+const Main = () => {
   return (
     <View>
-      <Text>dsdsd</Text>
-      <Link href="/home">Casa</Link>
+      <Text>Main</Text>
     </View>
   );
-}
+};
+
+export default Main;
+
+const styles = StyleSheet.create({});
