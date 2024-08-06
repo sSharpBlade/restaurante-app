@@ -1,17 +1,19 @@
-import { Text, View } from "react-native";
+import { ScrollView, View } from "react-native";
 import React from "react";
-import { Link } from "expo-router";
+import { SafeAreaView } from "react-native-safe-area-context";
+import CustomButton from "../components/CustomButton";
 import { StatusBar } from "expo-status-bar";
 
 const App = () => {
   return (
-    <View className="flex-1 items-center justify-center bg-slate-500">
-      <Text className="text-3xl text-black">App</Text>
-      <StatusBar style="auto" />
-      <Link href="/home" style={{ color: "white" }}>
-        Iniciar sesión
-      </Link>
-    </View>
+    <SafeAreaView className="bg-[#3a4630] h-full">
+      <ScrollView contentContainerStyle={{ height: "100%" }}>
+        <View className="w-full justify-center items-center h-full px-4">
+          <CustomButton title="Iniciar Sesión" handlePress={() => {}} />
+        </View>
+      </ScrollView>
+      <StatusBar style="light" />
+    </SafeAreaView>
   );
 };
 
