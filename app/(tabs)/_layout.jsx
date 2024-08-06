@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, Pressable } from "react-native";
 import React from "react";
 import { Tabs, Redirect } from "expo-router";
 import { HomeIcon, ProfileIcon } from "../../components/Icons";
@@ -9,7 +9,11 @@ const TabsLayout = () => {
       <Tabs
         screenOptions={{
           tabBarShowLabel: false,
-          tabBarActiveTintColor: "#FFA001",
+          tabBarActiveTintColor: "blue",
+          tabBarInactiveTintColor: "#CDCDE0",
+          tabBarStyle: {
+            backgroundColor: "#e0e0e0",
+          },
         }}
       >
         <Tabs.Screen
