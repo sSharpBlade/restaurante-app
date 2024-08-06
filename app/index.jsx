@@ -8,7 +8,7 @@ const App = () => {
     <View className="flex-1 items-center justify-center bg-slate-500">
       <Text className="text-3xl text-black">App</Text>
       <StatusBar style="auto" />
-      <Link href="/" style={{ color: "white" }}>
+      <Link href="/home" style={{ color: "white" }}>
         Iniciar sesión
       </Link>
     </View>
