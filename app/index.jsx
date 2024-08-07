@@ -13,8 +13,6 @@ const App = () => {
           <CustomButton
             title="Iniciar Sesión"
             handlePress={() => router.push("/sign-in")}
-            containerStyles={"w-full bg-white"}
-            textStyles={""}
           />
         </View>
       </ScrollView>
