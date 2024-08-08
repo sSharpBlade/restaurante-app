@@ -36,7 +36,7 @@ const SignIn = () => {
             handlePress={submit}
             isLoading={isSubmitting}
           />
-          <View className="justify-center pt-5 flex-row gap-2">
+          <View className="flex-row justify-center gap-2 pt-5">
             <Text className="text-lg text-gray-100 ">Don't have account?</Text>
             <Link href="/sign-up" className="text-lg text-blue-300">
               Sign up
