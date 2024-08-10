@@ -1,0 +1,9 @@
+# Aplicación restaurante
+
+## Concepto
+
+Permite la interacción de varios actores:
+
+1. Mesero: puede agregar productos a la orden de un cliente.
+2. Cocinero: despacha los pedidos
+3. Cliente: tiene la posibilidad de dividir el total de sus pedidos
